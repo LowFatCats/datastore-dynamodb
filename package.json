@@ -1,0 +1,50 @@
+{
+  "name": "@lowfatcats/datastore-dynamodb",
+  "version": "0.4.0",
+  "description": "Content data store backed by DynamoDB",
+  "keywords": [
+    "content",
+    "data",
+    "store",
+    "DynamoDB",
+    "AWS"
+  ],
+  "engines": {
+    "node": ">= 6.10"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc jasmine"
+  },
+  "nyc": {
+    "check-coverage": true,
+    "per-file": true,
+    "include": [
+      "lib/**/*.js"
+    ],
+    "reporter": [
+      "text",
+      "html"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LowFatCats/datastore-dynamodb"
+  },
+  "author": "Gabriel Nicolae <gabriel@designbylfc.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@lowfatcats/moment-utils": "^0.4.3",
+    "lodash": "^4.17.15",
+    "pick-random": "^2.0.0"
+  },
+  "optionalDependencies": {
+    "aws-sdk": "^2.54.0"
+  },
+  "devDependencies": {
+    "dynalite": "^3.2.0",
+    "jasmine": "^2.99.0",
+    "jasmine-expect": "^3.8.4",
+    "nyc": "^15.0.0"
+  }
+}

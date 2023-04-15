@@ -1,0 +1,24 @@
+{
+    "extends": [
+        "airbnb-base",
+        "plugin:jasmine/recommended"
+    ],
+    "rules": {
+        "no-console": 0,
+        "import/no-extraneous-dependencies": [
+            "error",
+            {
+                "devDependencies": false,
+                "optionalDependencies": true,
+                "peerDependencies": false
+            }
+        ],
+        "jasmine/no-suite-dupes": ["error", "branch"]
+    },
+    "plugins": [
+        "jasmine"
+    ],
+    "env": {
+        "jasmine": true
+    }
+}

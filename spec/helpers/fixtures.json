@@ -1,0 +1,716 @@
+{
+    "Content": [{
+            "ID": "links--featured",
+            "Data": [{
+                "title": "Raffle",
+                "link": "#raffle"
+            }, {
+                "title": "Adopt",
+                "link": "#adopt"
+            }, {
+                "title": "Donate",
+                "link": "#donate"
+            }]
+        }, {
+            "ID": "pets--available",
+            "Data": {
+                "cat": ["0", "1", "2", "3", "4", "5", "6", "7", "8",
+                    "0", "1", "2", "3", "4", "5", "6", "7", "8"
+                ],
+                "dog": ["0", "1", "2", "3", "4", "5", "6", "7", "8",
+                    "0", "1", "2", "3", "4", "5", "6", "7", "8"
+                ]
+            }
+        }, {
+            "ID": "event#1",
+            "Data": {
+                "Type": "event",
+                "title": "Event Name #1",
+                "link": "#",
+                "date": "2017-10-03T16:00:00.000Z"
+            }
+        }, {
+            "ID": "event#2",
+            "Data": {
+                "Type": "event",
+                "title": "Event Name #2",
+                "link": "#",
+                "date": "2017-10-03T22:00:00.000Z"
+            }
+        }, {
+            "ID": "event#3",
+            "Data": {
+                "Type": "event",
+                "title": "Event Name #3",
+                "link": "#",
+                "date": "2017-11-01T04:59:00.000Z"
+            }
+        }, {
+            "ID": "event#4",
+            "Data": {
+                "Type": "event",
+                "title": "Event Name #3 (duplicate)",
+                "link": "#",
+                "date": "2017-11-01T04:59:00.000Z"
+            }
+        }, {
+            "ID": "event#5",
+            "Data": {
+                "Type": "event",
+                "title": "Future event",
+                "link": "#",
+                "date": "2017-11-01T15:00:00.000Z"
+            }
+        },
+        {
+            "ID": "article#1",
+            "Data": {
+                "Type": "article",
+                "image": "images/sample.jpg.jpg",
+                "title": "Some article title",
+                "link": "article--news.html",
+                "date": "Sep 24, 2015",
+                "content": "<p>Some article content</p>",
+                "actions": [{
+                    "title": "Buy tickets",
+                    "link": "#"
+                }, {
+                    "title": "Vote for us!",
+                    "link": "#"
+                }]
+            }
+        },
+        {
+            "ID": "cat#0",
+            "Data": {
+                "Type": "cat",
+                "IID": "0",
+                "link": "article-profile.html",
+                "name": "Marigold",
+                "gen": "f",
+                "image": "images/cat-marigold--1__thumb.jpg",
+                "size": "Medium",
+                "age": "Senior",
+                "breed": "Tabby",
+                "color": "Red Tabby",
+                "dob": "03/2004",
+                "special": "y"
+            }
+        }, {
+            "ID": "cat#1",
+            "Data": {
+                "Type": "cat",
+                "IID": "1",
+                "link": "article-profile.html",
+                "name": "Delilah",
+                "gen": "f",
+                "image": "images/cat-delilah_thumb.jpg",
+                "size": "Medium",
+                "age": "Adult",
+                "breed": "Domestic Short Hair",
+                "color": "Brown",
+                "dob": "05/2012"
+            }
+        }, {
+            "ID": "cat#2",
+            "Data": {
+                "Type": "cat",
+                "IID": "2",
+                "link": "article-profile.html",
+                "name": "Greta",
+                "gen": "f",
+                "image": "images/cat-greta_thumb.jpg",
+                "size": "Medium",
+                "age": "Young",
+                "breed": "Domestic Long Hair",
+                "color": "Black and White",
+                "dob": "03/05/2013"
+            }
+        }, {
+            "ID": "cat#3",
+            "Data": {
+                "Type": "cat",
+                "IID": "3",
+                "link": "article-profile.html",
+                "name": "Hagrid",
+                "gen": "m",
+                "image": "images/cat-hagrid_thumb.jpg",
+                "size": "Medium",
+                "age": "Adult",
+                "breed": "Domestic Medium Hair",
+                "color": "Gray and White",
+                "dob": "08/09/2014"
+            }
+        }, {
+            "ID": "cat#4",
+            "Data": {
+                "Type": "cat",
+                "IID": "4",
+                "link": "article-profile.html",
+                "name": "Karolyn",
+                "gen": "f",
+                "image": "images/cat-karolyn_thumb.jpg",
+                "size": "Medium",
+                "age": "Adult",
+                "breed": "Domestic Short Hair",
+                "color": "Brown Tabby",
+                "dob": "05/2009"
+            }
+        }, {
+            "ID": "cat#5",
+            "Data": {
+                "Type": "cat",
+                "IID": "5",
+                "link": "article-profile.html",
+                "name": "Melinda",
+                "gen": "f",
+                "image": "images/cat-melinda_thumb.jpg",
+                "size": "Medium",
+                "age": "Adult",
+                "breed": "Domestic Short Hair",
+                "dob": "10/2013"
+            }
+        }, {
+            "ID": "cat#6",
+            "Data": {
+                "Type": "cat",
+                "IID": "6",
+                "link": "article-profile.html",
+                "name": "Tom",
+                "gen": "m",
+                "image": "images/cat-tom_thumb.jpg",
+                "size": "Medium",
+                "age": "Adult",
+                "breed": "Domestic Medium Hair",
+                "color": "Black",
+                "dob": "10/15/2014"
+            }
+        }, {
+            "ID": "cat#7",
+            "Data": {
+                "Type": "cat",
+                "IID": "7",
+                "link": "article-profile.html",
+                "name": "Vinny",
+                "gen": "m",
+                "image": "images/cat-vinny_thumb.jpg",
+                "size": "Medium",
+                "age": "Adult",
+                "breed": "Tabby",
+                "color": "Brown Tabby",
+                "dob": "05/2010"
+            }
+        }, {
+            "ID": "cat#8",
+            "Data": {
+                "Type": "cat",
+                "IID": "8",
+                "link": "article-profile.html",
+                "name": "Chantal",
+                "gen": "f",
+                "image": "images/cat-chantal_thumb.jpg",
+                "size": "Medium",
+                "age": "Adult",
+                "breed": "Maine Coon [Mix]",
+                "special": "y"
+            }
+        },
+        {
+            "ID": "dog#0",
+            "Data": {
+                "Type": "dog",
+                "IID": "0",
+                "link": "article-profile.html",
+                "name": "Brownie",
+                "gen": "m",
+                "image": "images/dog-brownie_thumb.jpg",
+                "size": "Medium",
+                "age": "Adult",
+                "breed": "Labrador Retriever / German Shepherd Dog [Mix]",
+                "color": "Red/Golden/Orange/Chestnut with Black",
+                "dob": "10/2013"
+            }
+        }, {
+            "ID": "dog#1",
+            "Data": {
+                "Type": "dog",
+                "IID": "1",
+                "link": "article-profile.html",
+                "name": "Dallas",
+                "gen": "m",
+                "image": "images/dog-dallas_thumb.jpg",
+                "size": "Medium",
+                "age": "Adult",
+                "breed": "Shepherd [Mix]",
+                "color": "Black with Tan, Yellow or Fawn",
+                "dob": "01/2010"
+            }
+        }, {
+            "ID": "dog#2",
+            "Data": {
+                "Type": "dog",
+                "IID": "2",
+                "link": "article-profile.html",
+                "name": "Maverick",
+                "gen": "m",
+                "image": "images/dog-maverick_thumb.jpg",
+                "size": "Medium",
+                "age": "Senior",
+                "breed": "Appenzell Mountain Dog / Retriever [Mix]",
+                "color": "Tan",
+                "dob": "2005"
+            }
+        }, {
+            "ID": "dog#3",
+            "Data": {
+                "Type": "dog",
+                "IID": "3",
+                "link": "article-profile.html",
+                "name": "Molly",
+                "gen": "f",
+                "image": "images/dog-molly_thumb.jpg",
+                "size": "Medium",
+                "age": "Adult",
+                "breed": "Border Collie [Mix]",
+                "color": "Black",
+                "dob": "04/2012"
+            }
+        }, {
+            "ID": "dog#4",
+            "Data": {
+                "Type": "dog",
+                "IID": "4",
+                "link": "article-profile.html",
+                "name": "Princess",
+                "gen": "f",
+                "image": "images/dog-princess_thumb.jpg",
+                "size": "Small",
+                "age": "Adult",
+                "breed": "Chihuahua [Mix]",
+                "color": "Tan/Yellow/Fawn with White",
+                "dob": "07/2014"
+            }
+        }, {
+            "ID": "dog#5",
+            "Data": {
+                "Type": "dog",
+                "IID": "5",
+                "link": "article-profile.html",
+                "name": "Rambo",
+                "gen": "m",
+                "image": "images/dog-rambo_thumb.jpg",
+                "size": "Medium",
+                "age": "Young",
+                "breed": "Shepherd / Boxer [Mix]",
+                "color": "White with Tan, Yellow or Fawn",
+                "dob": "11/2014"
+            }
+        }, {
+            "ID": "dog#6",
+            "Data": {
+                "Type": "dog",
+                "IID": "6",
+                "link": "article-profile.html",
+                "name": "Sherman",
+                "gen": "m",
+                "image": "images/dog-sherman_thumb.jpg",
+                "size": "Medium",
+                "age": "Young",
+                "breed": "Shepherd / Boxer [Mix]",
+                "color": "White with Tan, Yellow or Fawn",
+                "dob": "11/2014"
+            }
+        }, {
+            "ID": "dog#7",
+            "Data": {
+                "Type": "dog",
+                "IID": "7",
+                "link": "article-profile.html",
+                "name": "Sophie",
+                "gen": "f",
+                "image": "images/dog-sophie_thumb.jpg",
+                "size": "Medium",
+                "age": "Young",
+                "breed": "Shepherd / Boxer [Mix]",
+                "color": "White with Tan, Yellow or Fawn",
+                "dob": "11/2014"
+            }
+        }, {
+            "ID": "dog#8",
+            "Data": {
+                "Type": "dog",
+                "IID": "8",
+                "link": "article-profile.html",
+                "name": "Wallace",
+                "gen": "m",
+                "image": "images/dog-wallace_thumb.jpg",
+                "size": "Medium",
+                "age": "Senior",
+                "breed": "Shar Pei / Chinese Shar-Pei",
+                "color": "Brown/Chocolate",
+                "special": "y"
+            }
+        }
+    ],
+    "Brief": [{
+            "Type": "event",
+            "IID": "1",
+            "TS": 1507046400000,
+            "title": "Event Name #1",
+            "link": "#"
+        }, {
+            "Type": "event",
+            "IID": "2",
+            "TS": 1507068000000,
+            "title": "Event Name #2",
+            "link": "#"
+        }, {
+            "Type": "event",
+            "IID": "3",
+            "TS": 1509512340000,
+            "title": "Event Name #3",
+            "link": "#"
+        }, {
+            "Type": "event",
+            "IID": "4",
+            "TS": 1509512340000,
+            "title": "Event Name #3 (duplicate)",
+            "link": "#"
+        }, {
+            "Type": "event",
+            "IID": "5",
+            "TS": 1509548400000,
+            "title": "Future event",
+            "link": "#"
+        },
+        {
+            "Type": "article",
+            "IID": "1",
+            "TS": 1509548400000,
+            "image": "images/sample.jpg.jpg",
+            "title": "Some article title",
+            "link": "article--news.html",
+            "date": "Sep 24, 2015",
+            "content": "<p>Some article content</p>",
+            "actions": [{
+                "title": "Buy tickets",
+                "link": "#"
+            }, {
+                "title": "Vote for us!",
+                "link": "#"
+            }]
+        },
+        {
+            "Type": "cat",
+            "IID": "0",
+            "FeatureDate": 1502727027332,
+            "link": "article-profile.html",
+            "name": "Marigold",
+            "gen": "f",
+            "image": "images/cat-marigold--1__thumb.jpg",
+            "size": "Medium",
+            "age": "Senior",
+            "breed": "Tabby",
+            "color": "Red Tabby",
+            "dob": "03/2004",
+            "special": "y"
+        }, {
+            "Type": "cat",
+            "IID": "1",
+            "FeatureDate": 1502727027331,
+            "link": "article-profile.html",
+            "name": "Delilah",
+            "gen": "f",
+            "image": "images/cat-delilah_thumb.jpg",
+            "size": "Medium",
+            "age": "Adult",
+            "breed": "Domestic Short Hair",
+            "color": "Brown",
+            "dob": "05/2012"
+        }, {
+            "Type": "cat",
+            "IID": "2",
+            "FeatureDate": 1502727027330,
+            "link": "article-profile.html",
+            "name": "Greta",
+            "gen": "f",
+            "image": "images/cat-greta_thumb.jpg",
+            "size": "Medium",
+            "age": "Young",
+            "breed": "Domestic Long Hair",
+            "color": "Black and White",
+            "dob": "03/05/2013"
+        }, {
+            "Type": "cat",
+            "IID": "3",
+            "link": "article-profile.html",
+            "name": "Hagrid",
+            "gen": "m",
+            "image": "images/cat-hagrid_thumb.jpg",
+            "size": "Medium",
+            "age": "Adult",
+            "breed": "Domestic Medium Hair",
+            "color": "Gray and White",
+            "dob": "08/09/2014"
+        }, {
+            "Type": "cat",
+            "IID": "4",
+            "FeatureDate": 1502727027328,
+            "link": "article-profile.html",
+            "name": "Karolyn",
+            "gen": "f",
+            "image": "images/cat-karolyn_thumb.jpg",
+            "size": "Medium",
+            "age": "Adult",
+            "breed": "Domestic Short Hair",
+            "color": "Brown Tabby",
+            "dob": "05/2009"
+        }, {
+            "Type": "cat",
+            "IID": "5",
+            "FeatureDate": 1502727027327,
+            "link": "article-profile.html",
+            "name": "Melinda",
+            "gen": "f",
+            "image": "images/cat-melinda_thumb.jpg",
+            "size": "Medium",
+            "age": "Adult",
+            "breed": "Domestic Short Hair",
+            "dob": "10/2013"
+        }, {
+            "Type": "cat",
+            "IID": "6",
+            "link": "article-profile.html",
+            "name": "Tom",
+            "gen": "m",
+            "image": "images/cat-tom_thumb.jpg",
+            "size": "Medium",
+            "age": "Adult",
+            "breed": "Domestic Medium Hair",
+            "color": "Black",
+            "dob": "10/15/2014"
+        }, {
+            "Type": "cat",
+            "IID": "7",
+            "link": "article-profile.html",
+            "name": "Vinny",
+            "gen": "m",
+            "image": "images/cat-vinny_thumb.jpg",
+            "size": "Medium",
+            "age": "Adult",
+            "breed": "Tabby",
+            "color": "Brown Tabby",
+            "dob": "05/2010"
+        }, {
+            "Type": "cat",
+            "IID": "8",
+            "link": "article-profile.html",
+            "name": "Chantal",
+            "gen": "f",
+            "image": "images/cat-chantal_thumb.jpg",
+            "size": "Medium",
+            "age": "Adult",
+            "breed": "Maine Coon [Mix]",
+            "special": "y"
+        }, {
+            "Type": "dog",
+            "IID": "0",
+            "FeatureDate": 1502727027332,
+            "link": "article-profile.html",
+            "name": "Brownie",
+            "gen": "m",
+            "image": "images/dog-brownie_thumb.jpg",
+            "size": "Medium",
+            "age": "Adult",
+            "breed": "Labrador Retriever / German Shepherd Dog [Mix]",
+            "color": "Red/Golden/Orange/Chestnut with Black",
+            "dob": "10/2013"
+        }, {
+            "Type": "dog",
+            "IID": "1",
+            "FeatureDate": 1502727027331,
+            "link": "article-profile.html",
+            "name": "Dallas",
+            "gen": "m",
+            "image": "images/dog-dallas_thumb.jpg",
+            "size": "Medium",
+            "age": "Adult",
+            "breed": "Shepherd [Mix]",
+            "color": "Black with Tan, Yellow or Fawn",
+            "dob": "01/2010"
+        }, {
+            "Type": "dog",
+            "IID": "2",
+            "FeatureDate": 1502727027330,
+            "link": "article-profile.html",
+            "name": "Maverick",
+            "gen": "m",
+            "image": "images/dog-maverick_thumb.jpg",
+            "size": "Medium",
+            "age": "Senior",
+            "breed": "Appenzell Mountain Dog / Retriever [Mix]",
+            "color": "Tan",
+            "dob": "2005"
+        }, {
+            "Type": "dog",
+            "IID": "3",
+            "link": "article-profile.html",
+            "name": "Molly",
+            "gen": "f",
+            "image": "images/dog-molly_thumb.jpg",
+            "size": "Medium",
+            "age": "Adult",
+            "breed": "Border Collie [Mix]",
+            "color": "Black",
+            "dob": "04/2012"
+        }, {
+            "Type": "dog",
+            "IID": "4",
+            "link": "article-profile.html",
+            "name": "Princess",
+            "gen": "f",
+            "image": "images/dog-princess_thumb.jpg",
+            "size": "Small",
+            "age": "Adult",
+            "breed": "Chihuahua [Mix]",
+            "color": "Tan/Yellow/Fawn with White",
+            "dob": "07/2014"
+        }, {
+            "Type": "dog",
+            "IID": "5",
+            "link": "article-profile.html",
+            "name": "Rambo",
+            "gen": "m",
+            "image": "images/dog-rambo_thumb.jpg",
+            "size": "Medium",
+            "age": "Young",
+            "breed": "Shepherd / Boxer [Mix]",
+            "color": "White with Tan, Yellow or Fawn",
+            "dob": "11/2014"
+        }, {
+            "Type": "dog",
+            "IID": "6",
+            "link": "article-profile.html",
+            "name": "Sherman",
+            "gen": "m",
+            "image": "images/dog-sherman_thumb.jpg",
+            "size": "Medium",
+            "age": "Young",
+            "breed": "Shepherd / Boxer [Mix]",
+            "color": "White with Tan, Yellow or Fawn",
+            "dob": "11/2014"
+        }, {
+            "Type": "dog",
+            "IID": "7",
+            "link": "article-profile.html",
+            "name": "Sophie",
+            "gen": "f",
+            "image": "images/dog-sophie_thumb.jpg",
+            "size": "Medium",
+            "age": "Young",
+            "breed": "Shepherd / Boxer [Mix]",
+            "color": "White with Tan, Yellow or Fawn",
+            "dob": "11/2014"
+        }, {
+            "Type": "dog",
+            "IID": "8",
+            "link": "article-profile.html",
+            "name": "Wallace",
+            "gen": "m",
+            "image": "images/dog-wallace_thumb.jpg",
+            "size": "Medium",
+            "age": "Senior",
+            "breed": "Shar Pei / Chinese Shar-Pei",
+            "color": "Brown/Chocolate",
+            "special": "y"
+        }, {
+            "Type": "cat-update",
+            "IID": "43",
+            "TS": 1503072614411,
+            "link": "article-profile.html",
+            "name": "James Franco",
+            "image--s": "images/cat-james-franco_thumbs.jpg",
+            "update": "adopted"
+        }, {
+            "Type": "cat-update",
+            "IID": "44",
+            "TS": 1503072614411,
+            "link": "article-profile.html",
+            "name": "Juno",
+            "image--s": "images/cat-juno_thumbs.jpg",
+            "update": "adopted"
+        }, {
+            "Type": "cat-update",
+            "IID": "45",
+            "TS": 1503072614411,
+            "link": "article-profile.html",
+            "name": "Wisp",
+            "image--s": "images/cat-wisp_thumbs.jpg",
+            "update": "adopted"
+        }, {
+            "Type": "cat-update",
+            "IID": "46",
+            "TS": 1503072614411,
+            "link": "article-profile.html",
+            "name": "M Kittens",
+            "image--s": "images/cat-m-kittens_thumbs.jpg",
+            "update": "adopted"
+        }, {
+            "Type": "cat-update",
+            "IID": "47",
+            "TS": 1503072614411,
+            "link": "article-profile.html",
+            "name": "Reagan",
+            "image--s": "images/cat-reagan_thumbs.jpg",
+            "update": "adopted"
+        }, {
+            "Type": "dog-update",
+            "IID": "id1.45",
+            "TS": 1502727027332,
+            "link": "article-profile.html",
+            "name": "Lilu",
+            "image--s": "images/dog-lilu_thumbs.jpg",
+            "update": "adopted"
+        }, {
+            "Type": "dog-update",
+            "IID": "id1.46",
+            "TS": 1502381430178,
+            "link": "article-profile.html",
+            "name": "Chippie",
+            "image--s": "images/dog-chippie_thumbs.jpg",
+            "update": "adopted"
+        }, {
+            "Type": "dog-update",
+            "IID": "id2.43",
+            "TS": 1502208636340,
+            "link": "article-profile.html",
+            "name": "Dallas",
+            "image--s": "images/dog-dallas_thumbs.jpg",
+            "update": "new"
+        }, {
+            "Type": "dog-update",
+            "IID": "id2.47",
+            "TS": 1501949438656,
+            "link": "article-profile.html",
+            "name": "Cooper and Kea",
+            "image--s": "images/dog-cooper-and-kea_thumbs.jpg",
+            "update": "adopted"
+        }, {
+            "Type": "dog-update",
+            "IID": "id2.48",
+            "TS": 1501863044192,
+            "link": "article-profile.html",
+            "name": "Macy",
+            "image--s": "images/dog-macy_thumbs.jpg",
+            "update": "adopted"
+        }, {
+            "Type": "news",
+            "IID": "48",
+            "FeatureDate": 1501863044192,
+            "image": "images/sample.jpg",
+            "title": "Some news article",
+            "link": "article--news.html",
+            "date": "Aug 18"
+        }
+    ]
+}
